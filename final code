@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Home</title>
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+<script src="charity_profile.js" defer></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 1em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="charity.html">Home</a></li>
+            <li><a href="charity1.html">Charities List</a></li>
+            <li><a href="charity2.html">Charity Profile</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to HelpHub</h1>
+      
+    </header>
+
+    <main>
+        
+        <p>HelpHub is a website that connects volunteers with local charities in their area.</p>
+        <p> Explore our page let us connect you with a charity that you will love!</p>
+
+<img src="https://th.bing.com/th/id/R.fdbc0636cdadecc196cdb7047eb6b9e7?rik=6DTmr1ilvXxH4w&riu=http%3a%2f%2fc2cmovement.com%2fwp-content%2fuploads%2f2018%2f06%2fPeople-holding-hands-at-sunset-1.jpg&ehk=0gLUs74hlXMvrz7as6nfVY8jp89Jn9QR8XM7OuGznHk%3d&risl=&pid=ImgRaw&r=0.jpg" alt="people holding hands">
+    
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2023 HelpHub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charities List</title>
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 1em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+       
+        h1,
+        p {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="charity.html">Home</a></li>
+            <li><a href="charity1.html">Charities List</a></li>
+            <li><a href="charity2.html">Charity Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <h1>This is the charities list page.</h1>
+        <p> This page has a list of charities and what they do feel free to look around </p>
+
+        <h3>ST Jude Children Research Hospital</h3>
+        <p>ST Jude is a children research hospital is a pediatric treatment and research facility located in Memphis Tennessee that focuses on children's catastrophic diseases.</p>
+        <a href="https://www.stjude.org/" target="_blank"><button>Click me to see charity</button></a>
+
+        <h3>Safe Horizon</h3>
+        <p>Safe Horizon was found in New York City to provide compassionate and expert support for victims of crime.</p>
+        <a href="https://www.safehorizon.org/" target="_blank"><button>Click me to see charity</button></a>
+
+        <h3>Save The Children</h3>
+        <p>Save the Children is working around the clock to deliver lifesaving aid to children in the U.S. and around the world.</p>
+        <a href="https://support.savethechildren.org/site/Donation2?df_id=10126&10126.donation=form1&mfc_pref=T&monthly=false&cid=Paid_Search:Bing_Paid:Annual_GT:Brand:111023&s_kwcid=AL!9048!3!!p!!o!!save%20children%20charity%20donate&gclid=5e8a407448301b73f1e4252efa999e2d&gclsrc=3p.ds&msclkid=5e8a407448301b73f1e4252efa999e2d"
+            target="_blank"><button>Click me to see charity</button></a>
+
+
+<img src="https://3.bp.blogspot.com/-9cuKhy5GY94/V2GEBZSvt_I/AAAAAAAC0LM/a597VUouKW4AmSho-y4jLOQH-DBlUv40ACLcB/s1600/Charities-as-a-Vehicle-for-a-Social-Enterprise%2B%25281%2529.jpg.jpg" alt="Description of your image">    </main>
+
+    <footer>
+        
+        <p>&copy; 2023 HelpHub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Profile</title>
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 1em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+       {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <nav>
+            <ul>
+                <li><a href="charity.html">Home</a></li>
+                <li><a href="charity1.html">Charities List</a></li>
+                <li><a href="charity2.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+ <header>
+<h1> Charity Profile </h1>
+    </header>
+
+    <main>
+       <h1>Sign up to volunteer here </h1>
+        <h3>This is the charity profile page content where you can sign up to volunteer.</h3>
+
+          <button id="volunteerNowBtn" onclick="showVolunteerForm()">Volunteer Now</button>
+
+        
+        <form id="volunteerForm" style="display: none;">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var volunteerButton = document.getElementById('volunteerButton');
+        var volunteerForm = document.getElementById('volunteerForm');
+
+        volunteerButton.addEventListener('click', function () {
+            volunteerForm.style.display = 'block';
+        });
+
+        volunteerForm.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the form from submitting (for demo purposes)
+
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            console.log('Name:', name, 'Email:', email);
+
+           
+            volunteerForm.reset();
+            volunteerForm.style.display = 'none';
+        });
+    });
+</script>
+
+
+<style>
+       
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            Margin-right:20px;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px; 
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+       }
+
+     #volunteerButton{
+       Margin-top: 20x;
+     
+      
+     } 
+
+
+    </style>
+</head>
+<body>
+
+   
+   
+    <div class="tooltip">
+        <h2>About Us</h2>
+        <div class="tooltiptext">
+            <p>We want to match you with charities and send out information about different charities.</p>
+        </div>
+    </div>
+
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          
+            var tooltipTrigger = document.querySelector('.tooltip');
+
+           
+            var tooltip = document.createElement('div');
+            tooltip.className = 'tooltiptext';
+            
+           
+            document.body.appendChild(tooltip);
+
+           
+            function positionTooltip() {
+                var rect = tooltipTrigger.getBoundingClientRect();
+                tooltip.style.left = rect.left + rect.width / 2 + 'px';
+                tooltip.style.top = rect.bottom + 'px';
+            }
+
+           
+            tooltipTrigger.addEventListener('mouseenter', function () {
+                positionTooltip();
+                tooltip.style.visibility = 'visible';
+            });
+
+            tooltipTrigger.addEventListener('mouseleave', function () {
+                tooltip.style.visibility = 'hidden';
+            });
+
+            window.addEventListener('resize', positionTooltip);
+        });
+    </script>
+
+    </main>
+
+    <footer>
+        
+        <p>&copy; 2023 HelpHub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        
+        function showVolunteerForm() {
+            var volunteerForm = document.getElementById("volunteerForm");
+            volunteerForm.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
+
+
+
